@@ -1,0 +1,41 @@
+.top-wrapper {
+    & > * {
+        margin-bottom: 10px;
+    }
+    .name {
+        font-size: 40px;
+        font-weight: 600;
+    }
+  
+    .locate {
+        display: flex;
+        span {
+            margin-right: 10px;
+        }
+    }
+    .concat {
+        display: flex;
+        flex-wrap: wrap;
+
+        .concat-item {
+            display: flex;
+            margin-bottom: 5px;
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+            margin-right: 20px;
+        }
+        a p{
+            color: #61b9e7;
+        }
+    }
+    .skill {
+        display: flex;
+        flex-wrap: wrap;
+        & > * {
+            margin-bottom: 10px;
+        }
+    }
+}

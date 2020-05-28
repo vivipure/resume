@@ -1,0 +1,17 @@
+.text-wrapper {
+    border: 1px solid #111;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 7px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.text-wrapper {
+    margin-right: 10px;
+}
+.text-wrapper span {
+    font-size: 12px;
+    vertical-align: top;
+}
