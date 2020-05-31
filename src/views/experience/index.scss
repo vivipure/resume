@@ -1,3 +1,5 @@
+$phone: "(max-width: 767px)";
+
 .experience-wrapper {
     & > * {
         margin-bottom: 15px;
@@ -5,6 +7,12 @@
     .company {
         display: flex;
         justify-content: space-between;
+        @media screen and #{$phone} {
+            flex-direction: column;
+            .company-name {
+                margin-bottom: 10px;
+            }
+        }
         .company-name {
             font-size: 20px;
         }
@@ -13,7 +21,9 @@
         }
     }
     .work {
-        color: #aaa;
+        font-size: 18px;
+        font-weight: 600;
+        color: #666;
     }
     .products {
         .product-item {
@@ -48,6 +58,76 @@
                 
             }
         }
+    }
+    .items {
+        margin-bottom: 20px;
+        .item-name {
+            color: #37b24d;
+            border-bottom: 1px solid #37b24d;
+            padding-bottom: 10px;
+            cursor: pointer;
+        }
+        .item-desc {
+            margin: 10px auto;
+            color: #999;
+            font-size: 16px;
+        }
+        & > * {
+            margin-bottom: 10px;
+        }
+    }
+    .educate {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        .schcool-name {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .educate-time {
+            color: #999;
+        }
+    }
+    .skill-stack {
+        .skill-item {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+            color: rgb(31, 183, 230);
+            &::before  {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background-color: #999;
+            }
+        }
+    }
+}
+.footer {
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    color: #fff;
+    background-color: #495057;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        margin-right: 20px;
+    }
+    img {
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
     }
 }
 

@@ -1,23 +1,35 @@
+$phone: "(max-width: 767px)";
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-color: #f7f8f9;
+    overflow: hidden;
 }
+#root {
+    height: 100%;
+    overflow-y: scroll;
+}
+
 .resume-wrapper {
     width: 80%;
     max-width: 800px;
     margin: 50px auto;
-    @media screen and (max-width: 500px){
+    @media screen and #{$phone} {
         width: 100%;
         overflow: hidden;
+        margin: 0;
     }
 }
 a {
     text-decoration: none;
     color: #333;
 }
+
+
+

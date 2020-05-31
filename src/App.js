@@ -6,9 +6,9 @@ import Resume from './views/resume/index'
 
 function App() {
     return (
-        <div className="resume-wrapper">
-            <Resume />
-        </div>
+             <div className="resume-wrapper">
+                <Resume />
+            </div>
     )
 }
 

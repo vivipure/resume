@@ -16,7 +16,7 @@ function Top(prop) {
             </p>
             <div className="status">
                 <Text>求职中</Text>
-                <Text>一年经验</Text>
+                <Text bgColor="#FF5722" borderColor="#FF5722">一年经验</Text>
             </div>
             <div className="locate">
                 <span>深圳</span>

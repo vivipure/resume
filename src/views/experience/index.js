@@ -9,6 +9,15 @@ import Header from '../../common/header/index'
 function Experience(prop) {
     return (
         <div className="experience-wrapper">
+            <Header text="教育经历" />
+            <div className="educate">
+                <div className="schcool-name">
+                    西南科技大学
+                </div>
+                <div className="educate-time">
+                    2015.09 - 2019.06
+                </div>
+            </div>
             <Header text="工作经历" />
             <div className="company">
                 <p className="company-name">
@@ -51,22 +60,27 @@ function Experience(prop) {
                             <Text bgColor="#03a9f4" borderColor='#03a9f4'>
                                 H5单页应用
                             </Text>
-                            公司内部单页应用框架开发的小说App;
+                            <span>公司内部单页应用框架开发的小说App;</span>   
                         </li>
                         <li className="duty">
                             <Text bgColor="#03a9f4" borderColor='#03a9f4'>
                                 快应用
-                            </Text>基于快应用框架开发的小说App应用;
+                            </Text>
+                           <span>基于快应用框架开发的小说App应用;</span> 
                         </li>
                         <li className="duty">
                             <Text bgColor="#03a9f4" borderColor='#03a9f4'>
                                 Hybird
-                            </Text>和公司安卓协作完成的基于webview的hybird混合App;
+                            </Text>
+                            <span>和公司安卓协作完成的基于webview的hybird混合App;</span>
                         </li>
                         <li className="duty">
                         <Text bgColor="#03a9f4" borderColor='#03a9f4'>
                             uniapp
-                        </Text>基于uniapp框架完成的多平台，多小程序的小说App。
+                        </Text>
+                        <span>
+                            基于uniapp框架完成的多平台，多小程序的小说App。
+                        </span>
                         </li>
                     </ul>
                 </div>
@@ -96,7 +110,31 @@ function Experience(prop) {
                 </div>
             </div>
             <Header text="个人项目" />
-            <Header text="技术清单" />
+            <div className="items">
+                <div className="item-name">
+                    实时聊天应用
+                </div>
+                <p className="item-desc">基于socket.io的聊天应用，利用React构建，部分组件采用React Hooks编写。后端采用express+mongoDB，利用JWT实现用户会话控制</p>
+                <Text>React Hooks</Text>
+                <Text>socketio</Text>
+                <Text>mongo</Text>
+                <Text>express</Text>
+            </div>
+            <div className="items">
+                <div className="item-name">
+                    Chrome插件脚手架
+                </div>
+                <p className="item-desc">通过webpack对开发代码进行打包</p>
+                <Text>Webpack</Text>
+            </div>
+            <Header text="技术栈" />
+            <div className="skill-stack">
+               <p className="skill-item">前端基础：HTML5,CSS3，JavaScipt</p>
+               <p className="skill-item">前端框架：React, Vue</p>
+               <p className="skill-item">移动端：快应用, Hybird, uniapp</p>
+               <p className="skill-item">后端：express, Django</p>
+               <p className="skill-item">其他：Git, Webpack</p>
+            </div>
         </div>
     )
 }
