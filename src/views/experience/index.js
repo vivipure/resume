@@ -124,12 +124,14 @@ function Experience(prop) {
                 <div className="item-name">
                     Chrome插件脚手架
                 </div>
-                <p className="item-desc">通过webpack对开发代码进行打包</p>
+                <p className="item-desc">
+                    添配置了Chrome extension开发的通用配置，通过webpack对代码进行打包,支持Typescript.
+                </p>
                 <Text>Webpack</Text>
             </div>
             <Header text="技术栈" />
             <div className="skill-stack">
-               <p className="skill-item">前端基础：HTML5,CSS3，JavaScipt</p>
+               <p className="skill-item">前端基础：HTML5, CSS3, JavaScipt</p>
                <p className="skill-item">前端框架：React, Vue</p>
                <p className="skill-item">移动端：快应用, Hybird, uniapp</p>
                <p className="skill-item">后端：express, Django</p>
