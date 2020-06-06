@@ -125,17 +125,18 @@ function Experience(prop) {
                     Chrome插件脚手架
                 </div>
                 <p className="item-desc">
-                    添配置了Chrome extension开发的通用配置，通过webpack对代码进行打包,支持Typescript.
+                    配置了Chrome extension开发的通用配置，通过webpack对代码进行打包。
                 </p>
                 <Text>Webpack</Text>
             </div>
             <Header text="技术栈" />
             <div className="skill-stack">
-               <p className="skill-item">前端基础：HTML5, CSS3, JavaScipt</p>
-               <p className="skill-item">前端框架：React, Vue</p>
-               <p className="skill-item">移动端：快应用, Hybird, uniapp</p>
-               <p className="skill-item">后端：express, Django</p>
-               <p className="skill-item">其他：Git, Webpack</p>
+               <p className="skill-item">熟练编写语义化的HTML5，对布局能够用CSS进行精确还原，深刻理解CSS盒模型，定位，动画，BFC等特性</p>
+               <p className="skill-item">了解ECMAScript的语法标准，使用ES6进行业务代码的编写,能够使用Webpack对项目进行打包和性能优化</p>
+               <p className="skill-item">熟练使用Vue全家桶，结合Element UI对项目进行快速开发。熟练使用React以及React Hooks</p>
+               <p className="skill-item">掌握快应用,uniapp,H5,Hybird 多个移动端方案的开发,能够开发适配移动端的PC项目</p>
+               <p className="skill-item">后端能够使用Express, Django进行业务代码的编写，数据库使用MongoDB,以及Sqlite ORM</p>
+               <p className="skill-item">熟练使用GIT</p>
             </div>
         </div>
     )
