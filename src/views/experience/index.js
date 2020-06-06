@@ -6,7 +6,7 @@ import './index.scss'
 import Text from '../../common/textbox/index'
 import Header from '../../common/header/index'
 
-function Experience(prop) {
+function Experience() {
     return (
         <div className="experience-wrapper">
             <Header text="教育经历" />
@@ -40,10 +40,10 @@ function Experience(prop) {
                             公司范围内使用的书城管理系统，管理配置公司小说业务(Vue)
                         </li>
                         <li className="duty">
-                            负责项目前端的所有构建，基于业务的框架封装，组件配置，路由优化，状态管理。 
+                            负责项目前端的所有构建，基于业务的框架封装，组件配置，路由优化，状态管理
                         </li>
                         <li className="duty">
-                            具体功能组件的开发，如二维码展示，栏目拖拽，表格数据展示，表单数据新建与修改等，
+                            具体功能组件的开发，如二维码展示，栏目拖拽，表格数据展示，功能的配置等
                         </li>
                     </ul>
                 </div>
@@ -72,7 +72,7 @@ function Experience(prop) {
                             <Text bgColor="#03a9f4" borderColor='#03a9f4'>
                                 Hybird
                             </Text>
-                            <span>和公司安卓协作完成的基于webview的hybird混合App;</span>
+                            <span>和安卓同事协作完成的hybird混合App;</span>
                         </li>
                         <li className="duty">
                         <Text bgColor="#03a9f4" borderColor='#03a9f4'>

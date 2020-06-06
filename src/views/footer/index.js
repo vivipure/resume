@@ -1,5 +1,6 @@
 import React from 'react';
 import VImg from '../../common/vimg/index'
+import Jump from '../../common/jumpText/index'
 
 
 const wechat = require('../../icon/wechat.jpg')
@@ -10,8 +11,11 @@ function Footer(prop) {
     return (
         <div className="footer">
             {/* <img src={wechat} alt=""/> */}
-            <VImg src={wechat} />
-            <p>&copy;向方坤 2020-06</p>   
+            <div className="contact">
+                <VImg src={wechat} />
+                <Jump text="点击二维码添加我的WX" icon="👈"/>
+            </div>
+            <p>&copy;向方坤</p>   
         </div>
     )
 }
