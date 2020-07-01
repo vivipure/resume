@@ -19,17 +19,39 @@ function Experience() {
                 </div>
             </div>
             <Header text="工作经历" />
-            <div className="company">
-                <p className="company-name">
-                    深圳阅信文化传媒有限公司
-                </p>
-                <p className="timegap">
-                    2019-07 - 至今
-                </p>
+            <div className="companys">
+                <div className="company-item">
+                    <div className="company">
+                        <p className="company-name">
+                            思为软件
+                        </p>
+                        <p className="timegap">
+                            2020-07 - 至今
+                        </p>
+                    </div>
+                    <div className="work">
+                        高级前端开发
+                    </div>
+                </div>
+                <div className="company-item">
+                        <div className="company">
+                            <p className="company-name">
+                                深圳阅信文化传媒有限公司
+                            </p>
+                            <p className="timegap">
+                                2019-07 - 2020-06
+                            </p>
+                        </div>
+                        <div className="work">
+                            前端工程师
+                    </div>
+                </div>
             </div>
-            <div className="work">
-                前端工程师
-            </div>
+                
+           
+           
+            <Header text="项目经历" />
+
             <div className="products">
                 <div className="product-item">
                     <div className="product-name">
@@ -37,10 +59,10 @@ function Experience() {
                     </div>
                     <ul className="dutys">
                         <li className="duty">
-                            公司范围内使用的书城管理系统，管理配置公司小说业务(Vue)
+                            公司范围内使用的书城管理系统，管理配置公司小说业务(Vue + Vue-element-admin)
                         </li>
                         <li className="duty">
-                            负责项目前端的所有构建，基于业务的框架封装，组件配置，路由优化，状态管理
+                            负责项目前端的所有构建，基于业务的框架封装，组件配置，路由优化和鉴权，状态管理
                         </li>
                         <li className="duty">
                             具体功能组件的开发，如二维码展示，栏目拖拽，表格数据展示，功能的配置等

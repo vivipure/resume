@@ -1,13 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import './app.scss'
 import Resume from './views/resume/index'
-
+import Loading from './common/loading/index'
 
 function App() {
+    const [loading, setLoading] = useState(true)
+    setTimeout(() => {
+        setLoading(false)
+    }, 1500);
     return (
              <div className="resume-wrapper">
-                <Resume />
+                 {
+                     loading ? <Loading /> : <Resume />
+                 }
+                
             </div>
     )
 }

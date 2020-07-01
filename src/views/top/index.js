@@ -8,14 +8,26 @@ import Text from '../../common/textbox/index'
 let emailIcon = require('../../icon/email.svg')
 let phoneIcon = require('../../icon/phone.svg')
 
+
+
+
 function Top(prop) {
+    const colors = [
+        '#4a5354', 
+        '#52aea524',
+        '#444f8a',
+        '#fff'
+    ]
+    function changColor(color) {
+        document.querySelector('.resume').style.backgroundColor = color
+    }
     return (
         <div className="top-wrapper">
             <p className="name">
                 向方坤
             </p>
             <div className="status">
-                <Text>求职中</Text>
+                <Text>在职</Text>
                 <Text bgColor="#FF5722" borderColor="#FF5722">一年经验</Text>
             </div>
             <div className="locate">
@@ -27,7 +39,7 @@ function Top(prop) {
             <div className="concat">
                 <div className="concat-item">
                     <img src={phoneIcon} alt=""/>
-                     <p>18281625121</p>
+                     <p>182****5121</p>
                 </div>
                 <a className="concat-item" href='mailto:vivipureheart@gmail.com'>
                      <img src={emailIcon} alt=""/>
@@ -40,6 +52,20 @@ function Top(prop) {
                 <Text bgColor="#61dafb" borderColor="#61dafb" textColor="#111">React</Text>
                 <Text bgColor="#41b783" borderColor="#41b783" textColor="#384863">Vue</Text>
                 <Text bgColor="#8ec74c" borderColor="#8ec74c" textColor="#fff">Nodejs</Text>
+            </div>
+            <div className="color-picker">
+                {
+                    colors.map(color => {
+                        return (
+                            <div className="color-item" style={{
+                                backgroundColor: color
+                            }} onClick={()=>{changColor(color)}} key={color}>
+
+                            </div>
+
+                        )
+                    })
+                }
             </div>
 
         </div>

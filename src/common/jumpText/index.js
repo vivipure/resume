@@ -12,7 +12,7 @@ export default function Jump (props) {
                 splitText.map((t, i) => {
                 return  <span style={{
                     '--d': i+1
-                }}>{t}</span>
+                }} key={i}>{t}</span>
                 })
             }
         </div>
