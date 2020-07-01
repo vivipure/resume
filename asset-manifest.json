@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.215ff7dc.chunk.css",
+    "main.js": "./static/js/main.464469d5.chunk.js",
+    "main.js.map": "./static/js/main.464469d5.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.b78c3cdf.js",
+    "runtime-main.js.map": "./static/js/runtime-main.b78c3cdf.js.map",
+    "static/js/2.36b6a52d.chunk.js": "./static/js/2.36b6a52d.chunk.js",
+    "static/js/2.36b6a52d.chunk.js.map": "./static/js/2.36b6a52d.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.11cd86a076463797a93d822c2554c100.js": "./precache-manifest.11cd86a076463797a93d822c2554c100.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.215ff7dc.chunk.css.map": "./static/css/main.215ff7dc.chunk.css.map",
+    "static/js/2.36b6a52d.chunk.js.LICENSE.txt": "./static/js/2.36b6a52d.chunk.js.LICENSE.txt",
+    "static/media/email.svg": "./static/media/email.c4edf1a2.svg",
+    "static/media/phone.svg": "./static/media/phone.8d26c43e.svg",
+    "static/media/wechat.jpg": "./static/media/wechat.8336136a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b78c3cdf.js",
+    "static/js/2.36b6a52d.chunk.js",
+    "static/css/main.215ff7dc.chunk.css",
+    "static/js/main.464469d5.chunk.js"
+  ]
+}
