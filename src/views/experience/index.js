@@ -3,8 +3,8 @@ import React from 'react';
 
 
 import './index.scss'
-import Text from '../../common/textbox/index'
-import Header from '../../common/header/index'
+import Text from '../../components/textbox/index'
+import Header from '../../components/header/index'
 
 function Experience() {
     return (

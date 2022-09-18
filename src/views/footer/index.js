@@ -1,9 +1,9 @@
 import React from 'react';
-import VImg from '../../common/vimg/index'
-import Jump from '../../common/jumpText/index'
+import VImg from '../../components/vimg/index'
+import Jump from '../../components/jumpText/index'
 
 
-const wechat = require('../../icon/wechat.jpg')
+import wechat from '../../icon/wechat.jpg'
 
 
 

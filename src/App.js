@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 import './app.scss'
 import Resume from './views/resume/index'
-import Loading from './common/loading/index'
+import Loading from './components/loading/index'
 
 function App() {
     const [loading, setLoading] = useState(true)

@@ -3,15 +3,17 @@ import React from 'react';
 
 
 import './index.scss'
-import Text from '../../common/textbox/index'
-
-let emailIcon = require('../../icon/email.svg')
-let phoneIcon = require('../../icon/phone.svg')
+import Text from '../../components/textbox/index'
 
 
+import emailIcon from '../../icon/email.svg'
+import phoneIcon from '../../icon/phone.svg'
 
 
-function Top(prop) {
+
+
+
+function Top() {
     const colors = [
         '#4a5354', 
         '#52aea524',
