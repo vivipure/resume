@@ -3,6 +3,7 @@ import {
 } from "vite";
 import react from "@vitejs/plugin-react";
 import fs from 'fs/promises'
+import path from 'path'
 
 const loadJSAsJSX = {
     name: 'load-js-files-as-jsx',
@@ -22,6 +23,11 @@ export default defineConfig({
     plugins: [
         react()
     ],
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname,'src')
+        }
+    },
     esbuild: {
         loader: 'jsx',
         include: /src\/.*\.jsx?$/,

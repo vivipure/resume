@@ -2,10 +2,9 @@ import React from 'react'
 import './index.scss'
 
 
-import Top from '../top/index'
-import Experience from '../experience/index'
-import Footer from '../footer/index'
-
+import Top from './components/top/index'
+import Experience from './components/experience/index'
+import Footer from './components/footer/index'
 
 export default function Resume() {
     return (

@@ -1,9 +1,9 @@
 import React from 'react';
-import VImg from '../../components/vimg/index'
-import Jump from '../../components/jumpText/index'
+import VImg from '@/components/vimg/index'
+import Jump from '@/components/jumpText/index'
 
 
-import wechat from '../../icon/wechat.jpg'
+import wechat from '@/assets/icon/wechat.jpg'
 
 
 

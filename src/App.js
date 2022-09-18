@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
-import './app.scss'
-import Resume from './views/resume/index'
+import '@/assets/styles/init.scss'
+import OneYearResume from './views/oneYear/index'
 import Loading from './components/loading/index'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     return (
              <div className="resume-wrapper">
                  {
-                     loading ? <Loading /> : <Resume />
+                     loading ? <Loading /> : <OneYearResume />
                  }
                 
             </div>

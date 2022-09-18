@@ -3,11 +3,11 @@ import React from 'react';
 
 
 import './index.scss'
-import Text from '../../components/textbox/index'
+import Text from '@/components/textbox/index'
 
 
-import emailIcon from '../../icon/email.svg'
-import phoneIcon from '../../icon/phone.svg'
+import emailIcon from '@/assets/icon/email.svg'
+import phoneIcon from '@/assets/icon/phone.svg'
 
 
 
